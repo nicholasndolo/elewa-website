@@ -17,4 +17,6 @@ export class ElewaNormalButtonComponent {
     //emit click event
     this.click.emit()
   }
+
+
 }
