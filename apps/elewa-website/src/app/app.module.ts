@@ -7,6 +7,8 @@ import { TranslocoRootModule } from './transloco-root.module';
 
 import { AppRoutingModule } from './app.routing';
 
+import { ButtonsModule } from '@elewa-website/elements/layout/buttons';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -14,7 +16,7 @@ import { AppRoutingModule } from './app.routing';
     AppRoutingModule,
     HttpClientModule,
     TranslocoRootModule,
-   
+    ButtonsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

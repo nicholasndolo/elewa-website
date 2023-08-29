@@ -1,0 +1,10 @@
+.elewa-normal-button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    opacity: 1;
+    background-color: var(--bgColor, #2D2E52);
+    color: var(--color, #ffffff);
+    transition: background-color 0.3s, color 0.3s;
+}

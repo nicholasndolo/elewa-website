@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { ButtonData } from '@elewa-website/models/schema/ui/buttons';
 
 @Component({
@@ -7,6 +7,9 @@ import { ButtonData } from '@elewa-website/models/schema/ui/buttons';
   styleUrls: ['./elewa-normal-button.component.scss'],
 })
 export class ElewaNormalButtonComponent {
+
+    //pass data from parent component
+  @Input() buttonData!: ButtonData
   
   @Output() click: EventEmitter<void> = new EventEmitter<void>()
 

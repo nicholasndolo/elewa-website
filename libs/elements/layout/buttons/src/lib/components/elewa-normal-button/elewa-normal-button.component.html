@@ -1,5 +1,8 @@
 <button
+ class="elewa-normal-button"
+ [style.backgroundColor] = "buttonData.bgColor"
+ [style.color] = "buttonData.color"
  (click)="handleClick()"
->
-
+ >
+ {{ buttonData.text}}
 </button>
