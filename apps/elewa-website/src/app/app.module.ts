@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app.routing';
     AppRoutingModule,
     HttpClientModule,
     TranslocoRootModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent],
